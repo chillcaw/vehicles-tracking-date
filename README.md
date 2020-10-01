@@ -27,12 +27,14 @@ some car_number(s) had much more data than others and concurrency applications
 will only run as fast as their slowest process. I've illustrated this below
 with an example:
 
-Car 1 - Processing Time - 0.1s
-Car 2 - Processing Time - 0.1s
-Car 3 - Processing Time - 20s
+##### Input:
+- Car 1 - Processing Time - 0.1s
+- Car 2 - Processing Time - 0.1s
+- Car 3 - Processing Time - 20s
 
-Single Thread Speed: ~20.2s
-Concurrent Speed: ~20s
+##### Results:
+- Single Thread Speed: ~20.2s
+- Concurrent Speed: ~20s
 
 ## Tooling Discussion
 For this task I make heavy use of pandas' joins and aggregations since I was
